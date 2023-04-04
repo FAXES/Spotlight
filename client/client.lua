@@ -110,7 +110,8 @@ Citizen.CreateThread(function()
             if GetVehicleClass(veh) == 15 then -- Increases the Distance for Aircraft
                 DrawSpotLight(coords.x, windowCoords.y, coords.z, direct.x, direct.y, direct.z, 221, 221, 221, 200.0, 50.0, 4.3, 25.0, 28.6)
             else
-                DrawSpotLight(coords.x, windowCoords.y, coords.z, direct.x, direct.y, direct.z, 221, 221, 221, 70.0, 50.0, 4.3, 25.0, 28.6) 
+                DrawSpotLight(coords.x, windowCoords.y, coords.z, direct.x, direct.y, direct.z, 221, 221, 221, 70.0, 50.0, 4.3, 25.0, 28.6)
+            end
         end
     end
 end)
