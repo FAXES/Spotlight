@@ -82,24 +82,24 @@ Citizen.CreateThread(function()
                 local newZ = 0
                 local forwardVector = GetEntityForwardVector(vehicle)
                 local heading = GetEntityHeading(vehicle)
-                if IsControlPressed(0, 127) then -- Up // NumPad 8
-                    newZ = newZ + 0.1
+                if IsControlPressed(0, Config.UpKey) then
+                    newZ = newZ + Config.ChangeRate
                 end
-                if IsControlPressed(0, 126) then -- Down // NumPad 5
-                    newZ = newZ - 0.1
+                if IsControlPressed(0, Config.DownKey) then
+                    newZ = newZ - Config.ChangeRate
                 end
-                if IsControlPressed(0, 124) then -- Left // NumPad 4
+                if IsControlPressed(0, Config.LeftKey) then
                     if heading >= 180 and heading <= 365 then
-                        newY = newY + 0.1
+                        newY = newY + Config.ChangeRate
                     else
-                        newY = newY - 0.1
+                        newY = newY - Config.ChangeRate
                     end
                 end
-                if IsControlPressed(0, 125) then -- Right // NumPad 6
+                if IsControlPressed(0, Config.RightKey) then
                     if heading >= 180 and heading <= 365 then
-                        newY = newY - 0.1
+                        newY = newY - Config.ChangeRate
                     else
-                        newY = newY + 0.1
+                        newY = newY + Config.ChangeRate
                     end
                 end
                 TriggerServerEvent("qb-spotlight:server:updateSpotlight", i, {forwardVector.x, (direct.y + newY), (direct.z + newZ)})
