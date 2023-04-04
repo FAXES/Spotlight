@@ -14,4 +14,4 @@
 
 ### Original Script
 
-[Spotlight by Faxes & Slavko](https://github.com/FAXES/Spotlight) (Got permission from them to republish and edit.)
+[Spotlight by Faxes & Slavko](https://github.com/FAXES/Spotlight) (Got permission from them to fork and edit.)
