@@ -12,6 +12,6 @@
  - Move the folder to your server resources
 
 
-### Original Script
-
+### Original Version
+[Original README](https://github.com/FAXES/Spotlight/blob/master/README.md)
 [Spotlight by Faxes & Slavko](https://github.com/FAXES/Spotlight) (Got permission from them to fork and edit.)
