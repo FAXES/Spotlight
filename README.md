@@ -1,34 +1,17 @@
-**Spotlight - By FAXES & Slavko**
+# Spotlight Script for QBCore
 
-## [Discord :P](https://faxes.zone/discord)
+## Features
 
-**About**
-Today The official team @FaxSlav release to you something wanted, unique, powerful... *new*. Today we present to you a vehicle spotlight script, which once on will create a spotlight for you to *move* and use! I and @Slavko developed this, him mainly creating the whole sync system and making other client edits.
+ - Spotlightmoves with NumPad Keys (Can be changed in the Config)
+ - Uses command to toggle Spotlight (Can be changed in the Config)
+ - Option to whitelist the "Emergency Vehicle Class"
+ - Option to whitelist jobs
 
-**Video**
+## Installation
 
-https://youtu.be/V-Btt5snHH0
+ - Move the folder to your server resources
 
-<hr>
 
-**Features**
-- Add's/creates a vehicle spotlight
-- Spotlight can be moved with NumPad Controls (4, 5, 6, 8)
-- Change command to toggle spotlight (default /spotlight)
-- Change to whitelist only emergency vehicles to use (default true)
-*Config is in the `client.lua` file.*
+### Original Script
 
-**Requirements**
-None. This is a standalone script.
-
-**Downloads:**
-* [Download via Github](https://github.com/FAXES/Spotlight)
-* <a class="attachment" href="https://github.com/FAXES/Spotlight/releases/download/1.0/SpotLight.rar">Or via Direct Download</a>
-
-**Installation**
-Place in your resources folder, just like [any other resource.](https://forum.fivem.net/t/how-to-install-a-fivem-resource-script/81013)
-
-**Credits**
-@Slavko - Street creds :smiley: / Co-creating this script  
-
-If you have any issues or comments please put them below. :flashlight:
+[Spotlight by Faxes & Slavko](https://github.com/FAXES/Spotlight) (Got permission from them to republish and edit.)
