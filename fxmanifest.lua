@@ -8,8 +8,7 @@ version '1.0.0'
 lua54 'on'
 
 shared_scripts {
-	'shared/*.lua',
-	'@qb-core/shared/init.lua'
+	'shared/*.lua'
 }
 
 client_scripts {

@@ -1,4 +1,4 @@
-local QBCore = exports['qb-core']:GetCoreObject()
+QBCore = exports['qb-core']:GetCoreObject()
 local activeVehicleSpotlights = {}
 
 local function getVehicleSpotlightStatus(vehicleKey)
