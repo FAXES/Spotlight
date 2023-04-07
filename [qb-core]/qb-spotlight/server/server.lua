@@ -1,4 +1,4 @@
-QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
 local activeVehicleSpotlights = {}
 
 local function getVehicleSpotlightStatus(vehicleKey)
@@ -43,9 +43,9 @@ end)
 
 QBCore.Commands.Add(Config.Command, "Enables / Disables Spotlight", {}, false, function(source)
     local src = source
-    local PlayerData = GetPlayerData(src)
+    local Player = QBCore.Functions.GetPlayer(source)
     if Config.JobCheck then
-        if PlayerData.job ~= "police" then
+        if Player.PlayerData.job.name ~= "police" then
             TriggerClientEvent('QBCore:Notify', src, "You are not police!", 'error')
         else
             TriggerClientEvent('qb-spotlight:client:Spotlight', src)
